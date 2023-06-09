@@ -102,17 +102,17 @@
             src="https://api.map.baidu.com/api?v=2.0&ak=66wezFjoYfD2qrududq9Vs175giOIgpP"></script>
     {% endif %}
 
-<!--    <script>-->
-<!--        function onClickGAEvent(category, label) {-->
-<!--            {% if invitation.ga.trackingId %}-->
-<!--            ga('send', 'event', {-->
-<!--                eventCategory: category,-->
-<!--                eventAction: 'click',-->
-<!--                eventLabel: label-->
-<!--            });-->
-<!--            {% endif %}-->
-<!--        }-->
-<!--    </script>-->
+    <script>
+        function onClickGAEvent(category, label) {
+            {% if invitation.ga.trackingId %}
+            ga('send', 'event', {
+                eventCategory: category,
+                eventAction: 'click',
+                eventLabel: label
+            });
+            {% endif %}
+        }
+    </script>
 
 </head>
 <body>

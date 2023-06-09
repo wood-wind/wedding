@@ -1,4 +1,4 @@
-source /etc/profile
+#source /etc/profile
 
 echo "jekyll build"
 jekyll build
